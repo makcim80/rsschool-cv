@@ -28,6 +28,7 @@ body {
 }
 
 .header {
+    padding: 0 20px;
     background-color: #7dce13;
 }
 
@@ -36,16 +37,12 @@ body {
     margin: 0 auto;
 }
 
-.nav {}
-
 .nav-list {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     list-style: none;
 }
-
-.nav-item {}
 
 .nav-link {
     padding: 0 20px;
@@ -62,6 +59,7 @@ body {
 }
 
 .main {
+    padding: 0 20px;
     background-color: #f9f9c5;
 }
 
@@ -111,10 +109,8 @@ body {
     letter-spacing: 2px;
 }
 
-.profession {}
-
 .avatar {
-    width: 200px;
+    width: 250px;
 }
 
 .contact-list, .skill-list, .course-list, .project-list {
@@ -176,8 +172,6 @@ p {
     font-weight: normal;
     font-size: 20px;
 }
-
-.rsschool-link {}
 
 .img-rsschool {
     width: 100px;
