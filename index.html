@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/favicon.ico">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <section class="section section-profile" id="profile">
+                <div class="section-title-profession">
+                    <h1 class="section-title-name">Makcim Tsimashenka</h1>
+                    <p class="profession">Freelancer Front End Developer</p>
+                </div>
+                <img src="./assets/MT.png" alt="Avatar" class="avatar">
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">My Contact Info</h2>
+                <ul class="contact-list">
+                    <li class="contact-item">GitHub: makcim80</li>
+                    <li class="contact-item">Discord: Makcim</li>
+                    <li class="contact-item">E-mail: Makcim80@mail.ru</li>
+                </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p>I want to learn Front-End Development in RSSchool! I like programming!</p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="skill-list">
+                    <li class="skill-item">HTML&CSS</li>
+                    <li class="skill-item">JS</li>
+                    <li class="skill-item">Git</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <pre class="pre">
+                    <code>
+                        function toCamelCase(str){
+                            let string = ''
+                            if (str === '') {
+                                return str
+                            }
+                            for (let i = 0; i &lt; str.length; i++) {
+                                if ((str[i] === "_") || (str[i] === "-") || (str[i] === "¯")
+                                 || (str[i] === ' ')) {     
+                                string += str[i + 1].toUpperCase();
+                                i += 1
+                                continue
+                                } 
+                                string += str[i]
+                            }
+                            return string
+                            }
+                    </code>
+                </pre>
+            </section>
+            <section class="section" id="courses">
+                <h2 class="section-title">Courses</h2>
+                <ul class="course-list">
+                    <li class="course-item">JS, CSS, HTML, Git video courses on YouTube</li>
+                    <li class="course-item">JavaScript https://learn.javascript.ru/</li>
+                    <li class="course-item">Course HTML & CSS at Result School</li>
+                    <li class="course-item">Marathon: 5 days 5 JavaScript projects at Result School</li>
+                    <li class="course-item">Online intensive on the topic "Frontend Start"</li>
+                </ul>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="section-title">Work experience</h2>
+                <ul class="project-list">
+                    <li class="project-item"><a href="https://makcim80.github.io/cars-hw/" target="_blank" class="project-link">Premium car rental</a></li>
+                    <li class="project-item"><a href="https://codepen.io/Makcim80/pen/eYrwzeP" target="_blank" class="project-link">Mini game</a></li>
+                    <li class="project-item"><a href="https://codepen.io/Makcim80/pen/xxjemXr" target="_blank" class="project-link">Slider</a></li>
+                </ul>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <p>Mechanical engineer</p>
+            </section>
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <p>English level - A1</p>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="year">2022</div>
+            <a href="https://github.com/makcim80" target="_blank" class="github-link">Me on GitHub</a>
+            <a href="https://rs.school/js/" target="_blank" class="rsschool-link">
+                <img src="./assets/rs_school_js.svg" alt="RSSchool" class="img-rsschool">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
